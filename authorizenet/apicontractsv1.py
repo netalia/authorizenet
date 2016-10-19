@@ -18,7 +18,7 @@ import pyxb.utils.six as _six
 _GenerationUID = pyxb.utils.utility.UniqueIdentifier('urn:uuid:33f3c506-5ee4-11e6-89e8-00059a3c7a00')
 
 # Version of PyXB used to generate the bindings
-_PyXBVersion = '1.2.4'
+_PyXBVersion = '1.2.5'
 # Generated bindings are not compatible across PyXB versions
 if pyxb.__version__ != _PyXBVersion:
     raise pyxb.PyXBVersionError(_PyXBVersion)
